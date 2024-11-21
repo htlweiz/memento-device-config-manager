@@ -1,0 +1,1 @@
+# memento-device-config-manager
