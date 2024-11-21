@@ -2,20 +2,20 @@
 #define CARETAKER_HPP
 
 #include <vector>
-#include "Memento.hpp"
+
 #include "Device.hpp"
+#include "Memento.hpp"
 
-class Caretaker
-{
-private:
-    std::vector<Memento> history;
-    Device &device;
+class Caretaker {
+ private:
+  std::vector<Memento> history;
+  Device &device;
 
-public:
-    Caretaker(Device &device);
+ public:
+  Caretaker(Device &device);
 
-    void save();
-    void undo();
+  void save();
+  void undo();
 };
 
 #endif
