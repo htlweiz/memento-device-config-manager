@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.10)
 project(MementoDeviceConfigManager)
 
 # Add the executable
-add_executable(MementoDeviceConfigManager main.cpp)
+add_executable(MementoDeviceConfigManager main.cpp src/Caretaker.cpp)
